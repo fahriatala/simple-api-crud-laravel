@@ -1,0 +1,22 @@
+[2018-12-31 10:39:19.709] [exthost] [info] extension host started
+[2018-12-31 10:39:19.733] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:19.733] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2018-12-31 10:39:19.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:19.736] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/extension
+[2018-12-31 10:39:19.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:19.741] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2018-12-31 10:39:19.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:19.776] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/extension
+[2018-12-31 10:39:19.785] [exthost] [info] eager extensions activated
+[2018-12-31 10:39:35.771] [exthost] [info] extension host started
+[2018-12-31 10:39:35.797] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:35.797] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2018-12-31 10:39:35.800] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:35.800] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/extension
+[2018-12-31 10:39:35.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:35.809] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2018-12-31 10:39:35.851] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-12-31 10:39:35.851] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/extension
+[2018-12-31 10:39:35.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-12-31 10:39:35.861] [exthost] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/php-language-features/dist/phpMain
+[2018-12-31 10:39:35.871] [exthost] [info] eager extensions activated

@@ -1,0 +1,40 @@
+Looking for git in: /usr/bin/git
+Using git 2.17.1 (Apple Git-112) from /usr/bin/git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /Applications/MAMP/htdocs/dinosys/dinosys-userapp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse fix_page
+> git rev-parse --symbolic-full-name fix_page@{u}
+fatal: no upstream configured for branch 'fix_page'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :userapp/config/database.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :userapp/app/Http/Controllers/API/AddonController.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :userapp/routes/api.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :userapp/database/migrations/2018_05_14_032651_create_products_table.php
+> git check-ignore -z --stdin
+> git show :userapp/database/migrations/2018_05_14_060310_create_menu_store_table.php
+> git show :userapp/database/migrations/2018_05_14_055609_create_menu_descriptions_table.php
+> git show :userapp/database/migrations/2018_05_14_060310_create_menu_store_table.php
+> git show :userapp/database/migrations/2018_05_15_055759_create_product_addon_table.php
+> git check-ignore -z --stdin
+> git show :userapp/database/migrations/2018_05_15_064155_create_remarks_table.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :userapp/database/migrations/2018_05_27_095346_create_addon_description_table.php
+> git show :userapp/app/Http/Controllers/API/AddonController.php

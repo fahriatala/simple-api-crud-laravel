@@ -1,0 +1,19 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class BarangTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('barang')->insert([
+            'nama_barang' => str_random(10),
+        ]);
+    }
+}

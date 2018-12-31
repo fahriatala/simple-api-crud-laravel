@@ -1,0 +1,17 @@
+Looking for git in: /usr/bin/git
+Using git 2.17.1 (Apple Git-112) from /usr/bin/git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /Applications/MAMP/htdocs/dinosys/dinosys-userapp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse fix_page
+> git rev-parse --symbolic-full-name fix_page@{u}
+fatal: no upstream configured for branch 'fix_page'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :userapp/.env
+> git ls-files --stage -- userapp/
