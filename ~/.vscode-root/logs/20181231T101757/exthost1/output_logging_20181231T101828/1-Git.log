@@ -1345,3 +1345,31 @@ Use '--' to separate paths from revisions, like this:
 > git remote --verbose
 > git show :app/Http/Controllers/API/ApiV1Controller.php
 > git ls-files --stage -- app/Http/Controllers/API/
+> git show :app/Http/Controllers/API/ApiV1Controller.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- /Applications/MAMP/htdocs/laravel/simple-api-crud-laravel/~/.vscode-root/logs/20181231T101757/exthost1/output_logging_20181231T101828/1-Git.log
+> git show 2dcbe28cd8c8ab7f3ef06a10dbddf0a0b3ac1a8a
+> git show HEAD:~/.vscode-root/logs/20181231T101757/exthost1/output_logging_20181231T101828/1-Git.log
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
