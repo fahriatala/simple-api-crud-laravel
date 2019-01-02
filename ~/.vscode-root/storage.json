@@ -96,8 +96,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -452,8 +451,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1169,10 +1167,9 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/Applications/MAMP/htdocs/dinosys",
+    "pickerWorkingDir": "/Applications/MAMP/htdocs/laravel",
     "openedPathsList": {
         "workspaces2": [
-            "file:///Applications/MAMP/htdocs/dinosys/dinosys-userapp",
             "file:///Applications/MAMP/htdocs/laravel/simple-api-crud-laravel"
         ],
         "files2": []
@@ -1180,7 +1177,14 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "backupPath": "/Applications/MAMP/htdocs/laravel/simple-api-crud-laravel/~/.vscode-root/Backups/1546229957234",
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/Applications/MAMP/htdocs/laravel/simple-api-crud-laravel",
+                "external": "file:///Applications/MAMP/htdocs/laravel/simple-api-crud-laravel",
+                "path": "/Applications/MAMP/htdocs/laravel/simple-api-crud-laravel",
+                "scheme": "file"
+            },
+            "backupPath": "/Applications/MAMP/htdocs/laravel/simple-api-crud-laravel/~/.vscode-root/Backups/afe07ed8613a26342fa4cbed8fe3aaf8",
             "uiState": {
                 "mode": 1,
                 "x": 0,

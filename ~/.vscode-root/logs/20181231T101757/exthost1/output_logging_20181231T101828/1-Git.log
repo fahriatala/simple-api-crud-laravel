@@ -1373,3 +1373,30 @@ fatal: no upstream configured for branch 'development'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git check-ignore -z --stdin
+> git show HEAD:~/.vscode-root/logs/20181231T101757/exthost1/output_logging_20181231T101828/1-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :app/Http/Controllers/API/ApiV1Controller.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- /Applications/MAMP/htdocs/laravel/simple-api-crud-laravel/~/.vscode-root/storage.json
+> git show aa18b3470d63b304ea4dd12d1398f470dbf39def
+> git show HEAD:~/.vscode-root/storage.json
