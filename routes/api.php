@@ -20,7 +20,7 @@ Route::get('statserver', function () {
     return Response::json(['status' => 1, 'message' => 'Hello, Urip Ki']);
 });
 Route::get('getreview','API\Apiv1Controller@getreview');
-Route::post('getreviewbyid','Apiv1Controller@getreviewbyid');
-Route::post('insertreview','Apiv1Controller@insertreview');
-Route::post('deletereview','Apiv1Controller@deletereview');
-Route::post('updatereview','Apiv1Controller@updatereview');
+Route::post('getreviewbyid','API\Apiv1Controller@getreviewbyid');
+Route::post('insertreview','API\Apiv1Controller@insertreview');
+Route::post('deletereview','API\Apiv1Controller@deletereview');
+Route::post('updatereview','API\Apiv1Controller@updatereview');

@@ -8,7 +8,7 @@ class Userreview extends Model
 {
     protected $table='user_review';
     protected $fillable = [
-        'order_id','barang_id','user_id','rating','review'
+        'barang_id','user_id','rating','review'
     ];
     public function barang()
     {
